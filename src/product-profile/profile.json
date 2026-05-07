@@ -1,0 +1,19 @@
+{
+  "name": "pbr-channel-audit",
+  "title": "PBRチャンネル監査",
+  "domain": "AssetPipeline",
+  "kind": "asset-pipeline",
+  "host": null,
+  "field": "PBR監査",
+  "audience": "3D素材、Unity/Blender向けマテリアルを扱う制作者",
+  "workflow": "BaseColor、Normal、RoughnessなどのPBRチャンネルと命名、欠落を一括監査する。",
+  "requiredFields": [
+    "materialName",
+    "requiredChannel",
+    "texturePath",
+    "colorSpace"
+  ],
+  "warningField": "colorSpaceRisk",
+  "warningMessage": "色空間の指定が変換先の前提とずれる可能性があります。",
+  "qcdsTarget": "A-以上。closed alphaではS-を基準とする。"
+}
