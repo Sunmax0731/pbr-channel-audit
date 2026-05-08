@@ -1,0 +1,11 @@
+{
+  "product": "pbr-channel-audit",
+  "title": "PBRチャンネル監査",
+  "domain": "AssetPipeline",
+  "ideaNo": 2,
+  "platformType": "cli-release-tool",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
